@@ -1,0 +1,12 @@
+{
+  "name": "@golostos/next",
+  "version": "1.0.0",
+  "description": "Nextjs app generator with typescript and material-ui",
+  "main": "bin/next.sh",
+  "keywords": ["nextjs", "typescript", "mui", "material-ui"],
+  "author": "Alexander Dmitriev",
+  "license": "MIT",
+  "bin": {
+    "next-app": "./bin/next.sh"
+  }
+}
