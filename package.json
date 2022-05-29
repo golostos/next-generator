@@ -1,6 +1,6 @@
 {
   "name": "@golostos/next-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nextjs app generator with typescript and material-ui",
   "repository": "golostos/next-generator",
   "main": "bin/next.sh",

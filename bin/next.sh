@@ -4,7 +4,7 @@ name=$1
 if [ ! -n "$1" ]
 then
   read -p 'Enter the name of new app [skip for the default name: frontend]: ' project
-  if [ ! -n project ]
+  if [ ! -n "$project" ]
   then
     name=frontend
   else
