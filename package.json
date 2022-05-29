@@ -2,8 +2,14 @@
   "name": "@golostos/next-generator",
   "version": "1.0.0",
   "description": "Nextjs app generator with typescript and material-ui",
+  "repository": "golostos/next-generator",
   "main": "bin/next.sh",
-  "keywords": ["nextjs", "typescript", "mui", "material-ui"],
+  "keywords": [
+    "nextjs",
+    "typescript",
+    "mui",
+    "material-ui"
+  ],
   "author": "Alexander Dmitriev",
   "license": "MIT",
   "bin": {
