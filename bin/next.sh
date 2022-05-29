@@ -37,10 +37,10 @@ cd ..
 
 FILE=package.json
 if test -f "$FILE"; then
-  echo "Dependencies installation"
+  echo "Dependencies installation in the workspace"
   npm pkg set workspaces[]="$name"
   npm i -w $name
 else
-  echo "Dependencies installation in the workspace"
+  echo "Dependencies installation"
   cd $name && npm i
 fi
